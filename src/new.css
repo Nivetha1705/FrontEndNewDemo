@@ -1,0 +1,73 @@
+
+footer {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    font-style: italic;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+
+nav {
+    background-color: #8a8b8a; /* Light gray */
+    display: flex;
+    justify-content: center;  /* Center the nav items */
+    align-items: center;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ol {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ol li {
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ol li a:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: white; /* Ensure text stays readable */
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-vector/modern-colorful-watercolor-texture-design-background-vector_1055-19128.jpg?semt=ais_hybrid");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    nav ol {
+        flex-direction: column;
+    }
+    nav ol li {
+        margin: 10px 0;
+    }
+}
+

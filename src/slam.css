@@ -1,0 +1,16 @@
+body{
+  background-image:url(https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-waterfall-free-image.jpeg?w=600&quality=80);
+  
+}
+div{
+  background-color: rgb(187, 200, 219);
+  opacity:0.8;
+  display:flex;
+  margin-left: 250px ;
+  margin-right: 250px;
+  align-items: center;
+  justify-content: center;
+}
+label{
+  background-color: rgb(159, 159, 159);
+}
